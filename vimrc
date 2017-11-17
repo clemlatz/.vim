@@ -52,5 +52,8 @@ set hlsearch
 "Cancel search with Escape key
 nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 
+"Re-open previously opened file
+nnoremap <leader><leader> :e#<CR>
+
 "Show matching parenthesis
 set showmatch
