@@ -1,5 +1,8 @@
 "Inspired from http://marcgg.com/blog/2016/03/01/vimrc-example/
 
+"Pathogen
+execute pathogen#infect()
+
 "Detect file type
 filetype on
 
