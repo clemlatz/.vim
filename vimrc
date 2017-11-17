@@ -57,3 +57,6 @@ nnoremap <leader><leader> :e#<CR>
 
 "Show matching parenthesis
 set showmatch
+
+"Show lightline statusbar
+:set laststatus=2
