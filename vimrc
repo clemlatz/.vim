@@ -59,3 +59,10 @@ set showmatch
 
 "Show lightline statusbar
 :set laststatus=2
+
+"NERDtree config
+let NERDTreeShowHidden=1 "Show hidden files
+nmap <leader>n :NERDTreeToggle<CR>
+nmap <leader>j :NERDTreeFind<CR>
+let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
+
