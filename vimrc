@@ -17,8 +17,7 @@ set guifont=Menlo\ Regular:h18
 "Allow backspace to delete
 set backspace=indent,eol,start
 
-"Open vim with a given size
-set lines=35 columns=150
+"Add add column after 90 chars
 set colorcolumn=90
 
 "Show line numbers
