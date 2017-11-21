@@ -3,6 +3,10 @@
 "Pathogen
 execute pathogen#infect()
 
+"Character encoding
+set encoding=utf-8
+set fileencoding=utf-8
+
 "Detect file type
 filetype on
 
