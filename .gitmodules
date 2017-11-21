@@ -19,3 +19,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/vim-syntastic/syntastic
+[submodule "bundle/vim-sass-lint"]
+	path = bundle/vim-sass-lint
+	url = https://github.com/gcorne/vim-sass-lint.git
