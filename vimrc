@@ -82,3 +82,6 @@ let g:syntastic_check_on_wq = 0
 
 "stylelint config
 let g:syntastic_scss_checkers=["stylelint"]
+
+"eslint config
+let g:syntastic_javascript_checkers=["eslint"]
