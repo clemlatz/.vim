@@ -14,5 +14,5 @@ Inspired from http://marcgg.com/blog/2016/03/01/vimrc-example/
 
 ## Add a plugin
 
-    cd ~/.vim
+    cd ~/.vim
     git submobule add https://github.com/username/vim-plugin bundle/vim-plugin
