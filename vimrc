@@ -53,7 +53,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 set hlsearch
 
 "Cancel search with Escape key
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+"nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+"https://github.com/tpope/vim-pathogen/issues/102#issuecomment-45413916
 
 "Re-open previously opened file
 nnoremap <leader><leader> :e#<CR>
