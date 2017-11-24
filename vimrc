@@ -81,6 +81,9 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+let g:syntastic_mode_map = { 'passive_filetypes': ['gitcommit'] }
+"https://github.com/vim-syntastic/syntastic/issues/2118
+
 "stylelint config
 let g:syntastic_scss_checkers=["stylelint"]
 
