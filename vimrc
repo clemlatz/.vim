@@ -52,9 +52,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 "Highlight found words when searching
 set hlsearch
 
-"Cancel search with Escape key
-"nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
-"https://github.com/tpope/vim-pathogen/issues/102#issuecomment-45413916
+"Remove highlight search shortcut
+nnoremap <leader>h :nohl<CR>
 
 "Re-open previously opened file
 nnoremap <leader><leader> :e#<CR>
