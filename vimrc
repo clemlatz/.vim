@@ -70,3 +70,8 @@ nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>j :NERDTreeFind<CR>
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 
+"vim-jsx config
+let g:jsx_ext_required = 0
+
+
+
